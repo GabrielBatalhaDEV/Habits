@@ -11,7 +11,7 @@ export function ProgressBar({ progress }: ProgressBarProps) {
       value={progress}
     >
       <Progress.Indicator
-        className="h-3 rounded-xl bg-violet-600"
+        className="h-3 rounded-xl bg-violet-600 transition-all "
         style={{
           width: `${progress}%`,
         }}
