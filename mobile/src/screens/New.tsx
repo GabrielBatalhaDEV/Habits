@@ -1,5 +1,6 @@
 import { View, ScrollView, Text, TextInput } from "react-native";
 import { BackButton } from "../components/BackButton";
+import { Checkbox } from "../components/Checkbox";
 
 export function New() {
   return (
@@ -15,6 +16,7 @@ export function New() {
         </Text>
 
         <TextInput className="h-12 p-4 rounded-lg mt-3 bg-zinc-800 text-white focus:border-2 focus:border-green-600" />
+        <Checkbox />
       </ScrollView>
     </View>
   );
